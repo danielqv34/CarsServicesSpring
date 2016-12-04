@@ -1,0 +1,3860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="IZANAGI">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="2.6">
+    <schema id="1" name="C##DQUIROZ">
+      <object-id>102</object-id>
+      <created-timestamp>2016-07-11.19:43:26</created-timestamp>
+      <modified-timestamp>2016-12-01.18:14:34</modified-timestamp>
+      <visible>1</visible>
+      <introspection-timestamp>2016-12-03.11:26:42</introspection-timestamp>
+    </schema>
+    <schema id="2" name="PUBLIC">
+      <object-id>1</object-id>
+    </schema>
+    <schema id="3" name="SYS"/>
+    <schema id="4" name="AUDSYS">
+      <object-id>7</object-id>
+    </schema>
+    <schema id="5" name="SYSTEM">
+      <object-id>8</object-id>
+    </schema>
+    <schema id="6" name="OUTLN">
+      <object-id>13</object-id>
+    </schema>
+    <schema id="7" name="GSMADMIN_INTERNAL">
+      <object-id>21</object-id>
+    </schema>
+    <schema id="8" name="GSMUSER">
+      <object-id>22</object-id>
+    </schema>
+    <schema id="9" name="DIP">
+      <object-id>23</object-id>
+    </schema>
+    <schema id="10" name="ORACLE_OCM">
+      <object-id>36</object-id>
+    </schema>
+    <schema id="11" name="DBSNMP">
+      <object-id>48</object-id>
+    </schema>
+    <schema id="12" name="APPQOSSYS">
+      <object-id>49</object-id>
+    </schema>
+    <schema id="13" name="XDB">
+      <object-id>50</object-id>
+    </schema>
+    <schema id="14" name="ANONYMOUS">
+      <object-id>51</object-id>
+    </schema>
+    <schema id="15" name="GSMCATUSER">
+      <object-id>61</object-id>
+    </schema>
+    <schema id="16" name="WMSYS">
+      <object-id>62</object-id>
+    </schema>
+    <schema id="17" name="OJVMSYS">
+      <object-id>70</object-id>
+    </schema>
+    <schema id="18" name="CTXSYS">
+      <object-id>73</object-id>
+    </schema>
+    <schema id="19" name="ORDSYS">
+      <object-id>75</object-id>
+    </schema>
+    <schema id="20" name="ORDDATA">
+      <object-id>76</object-id>
+    </schema>
+    <schema id="21" name="ORDPLUGINS">
+      <object-id>77</object-id>
+    </schema>
+    <schema id="22" name="SI_INFORMTN_SCHEMA">
+      <object-id>78</object-id>
+    </schema>
+    <schema id="23" name="MDSYS">
+      <object-id>79</object-id>
+    </schema>
+    <schema id="24" name="OLAPSYS">
+      <object-id>82</object-id>
+    </schema>
+    <schema id="25" name="MDDATA">
+      <object-id>85</object-id>
+    </schema>
+    <schema id="26" name="SPATIAL_WFS_ADMIN_USR">
+      <object-id>87</object-id>
+    </schema>
+    <schema id="27" name="SPATIAL_CSW_ADMIN_USR">
+      <object-id>90</object-id>
+    </schema>
+    <schema id="28" name="LBACSYS">
+      <object-id>92</object-id>
+    </schema>
+    <schema id="29" name="FLOWS_FILES">
+      <object-id>94</object-id>
+    </schema>
+    <schema id="30" name="APEX_PUBLIC_USER">
+      <object-id>95</object-id>
+    </schema>
+    <schema id="31" name="APEX_040200">
+      <object-id>98</object-id>
+    </schema>
+    <schema id="32" name="DVF">
+      <object-id>99</object-id>
+    </schema>
+    <schema id="33" name="DVSYS">
+      <object-id>1279990</object-id>
+    </schema>
+    <schema id="34" name="SYSBACKUP">
+      <object-id>2147483617</object-id>
+    </schema>
+    <schema id="35" name="SYSDG">
+      <object-id>2147483618</object-id>
+    </schema>
+    <schema id="36" name="SYSKM">
+      <object-id>2147483619</object-id>
+    </schema>
+    <schema id="37" name="XS$NULL">
+      <object-id>2147483638</object-id>
+    </schema>
+    <sequence id="38" parent="1" name="CANTIDAD_SECUENCIA">
+      <object-id>100319</object-id>
+      <created-timestamp>2016-10-23.18:48:50</created-timestamp>
+      <modified-timestamp>2016-10-23.18:48:50</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>100</increment-by>
+      <next-value>12150</next-value>
+    </sequence>
+    <sequence id="39" parent="1" name="COD_CONCP_PAGOS">
+      <object-id>105446</object-id>
+      <created-timestamp>2016-11-29.19:55:54</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:54</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>120</next-value>
+    </sequence>
+    <sequence id="40" parent="1" name="hibernate_sequence">
+      <object-id>103506</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>121</next-value>
+    </sequence>
+    <sequence id="41" parent="1" name="ISEQ$$_100062">
+      <object-id>100063</object-id>
+      <created-timestamp>2016-10-19.23:20:26</created-timestamp>
+      <modified-timestamp>2016-10-19.23:20:26</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>1</next-value>
+    </sequence>
+    <sequence id="42" parent="1" name="ISEQ$$_100071">
+      <object-id>100072</object-id>
+      <created-timestamp>2016-10-19.23:50:50</created-timestamp>
+      <modified-timestamp>2016-10-19.23:50:50</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="43" parent="1" name="ISEQ$$_100074">
+      <object-id>100075</object-id>
+      <created-timestamp>2016-10-19.23:54:58</created-timestamp>
+      <modified-timestamp>2016-10-19.23:54:58</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="44" parent="1" name="ISEQ$$_100088">
+      <object-id>100089</object-id>
+      <created-timestamp>2016-10-20.00:16:39</created-timestamp>
+      <modified-timestamp>2016-10-20.00:16:39</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="45" parent="1" name="ISEQ$$_101870">
+      <object-id>101871</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="46" parent="1" name="ISEQ$$_101878">
+      <object-id>101879</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="47" parent="1" name="ISEQ$$_101882">
+      <object-id>101883</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>41</next-value>
+    </sequence>
+    <sequence id="48" parent="1" name="ISEQ$$_101888">
+      <object-id>101889</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="49" parent="1" name="ISEQ$$_101892">
+      <object-id>101893</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="50" parent="1" name="ISEQ$$_102076">
+      <object-id>102077</object-id>
+      <created-timestamp>2016-11-06.12:48:35</created-timestamp>
+      <modified-timestamp>2016-11-06.12:48:35</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>41</next-value>
+    </sequence>
+    <sequence id="51" parent="1" name="ISEQ$$_104279">
+      <object-id>104280</object-id>
+      <created-timestamp>2016-11-15.00:11:20</created-timestamp>
+      <modified-timestamp>2016-11-15.00:11:20</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>1</next-value>
+    </sequence>
+    <sequence id="52" parent="1" name="ISEQ$$_104282">
+      <object-id>104283</object-id>
+      <created-timestamp>2016-11-15.00:12:11</created-timestamp>
+      <modified-timestamp>2016-11-15.00:12:11</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>1</next-value>
+    </sequence>
+    <sequence id="53" parent="1" name="ISEQ$$_104284">
+      <object-id>104285</object-id>
+      <created-timestamp>2016-11-15.00:27:30</created-timestamp>
+      <modified-timestamp>2016-11-15.00:27:30</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>481</next-value>
+    </sequence>
+    <sequence id="54" parent="1" name="ISEQ$$_105450">
+      <object-id>105451</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="55" parent="1" name="ISEQ$$_105454">
+      <object-id>105455</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="56" parent="1" name="ISEQ$$_105458">
+      <object-id>105459</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="57" parent="1" name="ISEQ$$_105462">
+      <object-id>105463</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="58" parent="1" name="ISEQ$$_105470">
+      <object-id>105471</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="59" parent="1" name="ISEQ$$_105473">
+      <object-id>105474</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="60" parent="1" name="ISEQ$$_105510">
+      <object-id>105511</object-id>
+      <created-timestamp>2016-11-30.18:24:22</created-timestamp>
+      <modified-timestamp>2016-11-30.18:24:22</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>41</next-value>
+    </sequence>
+    <sequence id="61" parent="1" name="ISEQ$$_105515">
+      <object-id>105516</object-id>
+      <created-timestamp>2016-11-30.20:29:20</created-timestamp>
+      <modified-timestamp>2016-11-30.20:29:20</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>121</next-value>
+    </sequence>
+    <sequence id="62" parent="1" name="ISEQ$$_105532">
+      <object-id>105533</object-id>
+      <created-timestamp>2016-11-30.23:20:36</created-timestamp>
+      <modified-timestamp>2016-11-30.23:20:36</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="63" parent="1" name="ISEQ$$_93760">
+      <object-id>93761</object-id>
+      <created-timestamp>2016-07-11.19:43:26</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:26</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>1</next-value>
+    </sequence>
+    <sequence id="64" parent="1" name="ISEQ$$_93767">
+      <object-id>93768</object-id>
+      <created-timestamp>2016-07-11.19:43:31</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:31</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>1</next-value>
+    </sequence>
+    <sequence id="65" parent="1" name="ISEQ$$_93771">
+      <object-id>93772</object-id>
+      <created-timestamp>2016-07-11.19:43:33</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:33</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>1</next-value>
+    </sequence>
+    <sequence id="66" parent="1" name="ISEQ$$_93774">
+      <object-id>93775</object-id>
+      <created-timestamp>2016-07-11.19:43:36</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:36</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>1</next-value>
+    </sequence>
+    <sequence id="67" parent="1" name="ISEQ$$_95009">
+      <object-id>95010</object-id>
+      <created-timestamp>2016-08-04.21:59:08</created-timestamp>
+      <modified-timestamp>2016-08-04.21:59:08</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="68" parent="1" name="ISEQ$$_97071">
+      <object-id>97072</object-id>
+      <created-timestamp>2016-09-14.23:18:08</created-timestamp>
+      <modified-timestamp>2016-09-14.23:18:08</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="69" parent="1" name="ISEQ$$_97076">
+      <object-id>97077</object-id>
+      <created-timestamp>2016-09-14.23:19:47</created-timestamp>
+      <modified-timestamp>2016-09-14.23:19:47</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="70" parent="1" name="ISEQ$$_97400">
+      <object-id>97401</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="71" parent="1" name="ISEQ$$_97406">
+      <object-id>97407</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="72" parent="1" name="ISEQ$$_97409">
+      <object-id>97410</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="73" parent="1" name="ISEQ$$_97827">
+      <object-id>97828</object-id>
+      <created-timestamp>2016-09-29.00:09:52</created-timestamp>
+      <modified-timestamp>2016-09-29.00:09:52</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="74" parent="1" name="ISEQ$$_99138">
+      <object-id>99139</object-id>
+      <created-timestamp>2016-10-15.10:10:43</created-timestamp>
+      <modified-timestamp>2016-10-15.10:10:43</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="75" parent="1" name="ISEQ$$_99141">
+      <object-id>99142</object-id>
+      <created-timestamp>2016-10-15.10:10:43</created-timestamp>
+      <modified-timestamp>2016-10-15.10:10:43</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="76" parent="1" name="LIN_FACTURA">
+      <object-id>101887</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>21</next-value>
+    </sequence>
+    <sequence id="77" parent="1" name="NUM_CHEQUE">
+      <object-id>105448</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>1240</next-value>
+    </sequence>
+    <sequence id="78" parent="1" name="NUM_CUENTA">
+      <object-id>105449</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>100220</next-value>
+    </sequence>
+    <sequence id="79" parent="1" name="NUM_FACTURA">
+      <object-id>101886</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>41</next-value>
+    </sequence>
+    <sequence id="80" parent="1" name="NUM_SOLICITUD">
+      <object-id>105447</object-id>
+      <created-timestamp>2016-11-29.19:55:54</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:54</modified-timestamp>
+      <min-value>1</min-value>
+      <increment-by>1</increment-by>
+      <next-value>90</next-value>
+    </sequence>
+    <table id="81" parent="1" name="ARTICULOS">
+      <object-id>97076</object-id>
+      <created-timestamp>2016-09-14.23:19:47</created-timestamp>
+      <modified-timestamp>2016-09-14.23:19:47</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="82" parent="1" name="ASIENTO_CONTABLES">
+      <object-id>99138</object-id>
+      <created-timestamp>2016-10-15.10:10:43</created-timestamp>
+      <modified-timestamp>2016-10-15.10:10:43</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="83" parent="1" name="AUTOS">
+      <object-id>100074</object-id>
+      <created-timestamp>2016-10-19.23:54:58</created-timestamp>
+      <modified-timestamp>2016-10-21.23:29:29</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="84" parent="1" name="BANCO">
+      <object-id>105450</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="85" parent="1" name="Banco">
+      <object-id>103491</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="86" parent="1" name="CHEQUES_GENERADOS">
+      <object-id>105515</object-id>
+      <created-timestamp>2016-11-30.20:29:20</created-timestamp>
+      <modified-timestamp>2016-11-30.20:37:17</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="87" parent="1" name="CHEQUES_RECHAZADOS">
+      <object-id>105532</object-id>
+      <created-timestamp>2016-11-30.23:20:36</created-timestamp>
+      <modified-timestamp>2016-11-30.23:37:30</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="88" parent="1" name="CIUDAD">
+      <object-id>104284</object-id>
+      <created-timestamp>2016-11-15.00:27:30</created-timestamp>
+      <modified-timestamp>2016-11-15.00:33:04</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="89" parent="1" name="CLIENTE">
+      <object-id>101878</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="90" parent="1" name="CONCEPTOS_DE_PAGO">
+      <object-id>105454</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="91" parent="1" name="CONTACTOS">
+      <object-id>104282</object-id>
+      <created-timestamp>2016-11-15.00:12:11</created-timestamp>
+      <modified-timestamp>2016-11-15.00:12:11</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="92" parent="1" name="COUNTRIES">
+      <object-id>95831</object-id>
+      <created-timestamp>2016-08-20.01:19:14</created-timestamp>
+      <modified-timestamp>2016-08-20.01:19:14</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="93" parent="1" name="CUENTAS">
+      <object-id>99141</object-id>
+      <created-timestamp>2016-10-15.10:10:43</created-timestamp>
+      <modified-timestamp>2016-10-15.10:10:43</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="94" parent="1" name="CUENTAS_CONTABLES">
+      <object-id>105458</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="95" parent="1" name="DEPARTMENTS">
+      <object-id>95834</object-id>
+      <created-timestamp>2016-08-20.01:19:48</created-timestamp>
+      <modified-timestamp>2016-08-20.01:19:48</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="96" parent="1" name="DETALLE_FACTURA">
+      <object-id>101892</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="97" parent="1" name="DIRECCIONES">
+      <object-id>104279</object-id>
+      <created-timestamp>2016-11-15.00:11:20</created-timestamp>
+      <modified-timestamp>2016-11-15.00:27:30</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="98" parent="1" name="EMPLEADOS">
+      <object-id>97409</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="99" parent="1" name="EMPLOYEES">
+      <object-id>95835</object-id>
+      <created-timestamp>2016-08-20.01:19:52</created-timestamp>
+      <modified-timestamp>2016-08-20.01:19:52</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="100" parent="1" name="ENTIDAD">
+      <object-id>97071</object-id>
+      <created-timestamp>2016-09-14.23:18:08</created-timestamp>
+      <modified-timestamp>2016-09-14.23:18:08</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="101" parent="1" name="ENTIDADES">
+      <object-id>97400</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="102" parent="1" name="FACTURA">
+      <object-id>101882</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="103" parent="1" name="HABITACIONES">
+      <object-id>93771</object-id>
+      <created-timestamp>2016-07-11.19:43:33</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:33</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="104" parent="1" name="J_PURCHASEORDER">
+      <object-id>98316</object-id>
+      <created-timestamp>2016-10-07.21:44:03</created-timestamp>
+      <modified-timestamp>2016-10-07.21:44:03</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="105" parent="1" name="JOB_HISTORY">
+      <object-id>95836</object-id>
+      <created-timestamp>2016-08-20.01:19:56</created-timestamp>
+      <modified-timestamp>2016-08-20.01:19:56</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="106" parent="1" name="JOBS">
+      <object-id>95829</object-id>
+      <created-timestamp>2016-08-20.01:18:56</created-timestamp>
+      <modified-timestamp>2016-08-20.01:18:56</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="107" parent="1" name="LOCATIONS">
+      <object-id>95833</object-id>
+      <created-timestamp>2016-08-20.01:19:20</created-timestamp>
+      <modified-timestamp>2016-08-20.01:19:20</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="108" parent="1" name="MENSAJES_SISTEMA">
+      <object-id>93777</object-id>
+      <created-timestamp>2016-07-11.19:43:37</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:37</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="109" parent="1" name="NOMINA">
+      <object-id>97406</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="110" parent="1" name="PAISES">
+      <object-id>97827</object-id>
+      <created-timestamp>2016-09-29.00:09:52</created-timestamp>
+      <modified-timestamp>2016-09-29.00:09:52</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="111" parent="1" name="PERSONAS">
+      <object-id>100071</object-id>
+      <created-timestamp>2016-10-19.23:50:50</created-timestamp>
+      <modified-timestamp>2016-10-20.23:44:25</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="112" parent="1" name="PRODUCTOS">
+      <object-id>101888</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="113" parent="1" name="PROVEEDORES">
+      <object-id>105462</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="114" parent="1" name="Proveedores">
+      <object-id>103499</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="115" parent="1" name="PROVINCIA">
+      <object-id>102076</object-id>
+      <created-timestamp>2016-11-06.12:48:35</created-timestamp>
+      <modified-timestamp>2016-11-06.12:48:35</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="116" parent="1" name="REGIONS">
+      <object-id>95830</object-id>
+      <created-timestamp>2016-08-20.01:19:04</created-timestamp>
+      <modified-timestamp>2016-08-20.01:19:04</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="117" parent="1" name="RESERVACIONES">
+      <object-id>93774</object-id>
+      <created-timestamp>2016-07-11.19:43:36</created-timestamp>
+      <modified-timestamp>2016-11-08.21:37:05</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="118" parent="1" name="ROLES">
+      <object-id>105470</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="119" parent="1" name="Roles">
+      <object-id>103501</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="120" parent="1" name="SOLICITUD_DE_CHEQUE">
+      <object-id>105510</object-id>
+      <created-timestamp>2016-11-30.18:24:22</created-timestamp>
+      <modified-timestamp>2016-11-30.18:24:22</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="121" parent="1" name="TIPOS_HABITACIONES">
+      <object-id>93767</object-id>
+      <created-timestamp>2016-07-11.19:43:31</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:31</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="122" parent="1" name="TIPOS_ROLES">
+      <object-id>93760</object-id>
+      <created-timestamp>2016-07-11.19:43:26</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:26</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="123" parent="1" name="TPERSONA">
+      <object-id>100062</object-id>
+      <created-timestamp>2016-10-19.23:20:26</created-timestamp>
+      <modified-timestamp>2016-10-19.23:20:26</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="124" parent="1" name="USER_ROLES">
+      <object-id>95009</object-id>
+      <created-timestamp>2016-08-04.21:59:08</created-timestamp>
+      <modified-timestamp>2016-08-04.21:59:08</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="125" parent="1" name="USERSSPRING">
+      <object-id>95007</object-id>
+      <created-timestamp>2016-08-04.21:59:06</created-timestamp>
+      <modified-timestamp>2016-08-04.21:59:06</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="126" parent="1" name="USUARIO_INSERTA">
+      <object-id>100088</object-id>
+      <created-timestamp>2016-10-20.00:16:39</created-timestamp>
+      <modified-timestamp>2016-10-20.00:16:39</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="127" parent="1" name="USUARIOS">
+      <object-id>105473</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="128" parent="1" name="Usuarios">
+      <object-id>103503</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <table id="129" parent="1" name="USUARIOS_FAC">
+      <object-id>101870</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <organization>HEAP</organization>
+    </table>
+    <routine id="130" parent="1" name="GENERA_ARCHIVO_CONSUMIDOR">
+      <object-id>97081</object-id>
+      <created-timestamp>2016-09-14.23:57:15</created-timestamp>
+      <modified-timestamp>2016-09-15.00:35:17</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="131" parent="1" name="PROC_GENERA_ARCHIVO_ENT_TSS">
+      <object-id>97351</object-id>
+      <created-timestamp>2016-09-17.01:21:20</created-timestamp>
+      <modified-timestamp>2016-10-15.01:23:17</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="132" parent="1" name="PROC_GENERA_ARCHIVO_ENTIDADES">
+      <object-id>97078</object-id>
+      <created-timestamp>2016-09-14.23:34:29</created-timestamp>
+      <modified-timestamp>2016-09-15.01:15:14</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="133" parent="1" name="PROC_GENERA_XML_PROPIETARIA">
+      <object-id>99115</object-id>
+      <created-timestamp>2016-10-15.00:50:53</created-timestamp>
+      <modified-timestamp>2016-10-15.10:11:14</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="134" parent="1" name="PROC_PRODUCTO">
+      <object-id>101706</object-id>
+      <created-timestamp>2016-11-05.00:35:00</created-timestamp>
+      <modified-timestamp>2016-11-05.01:04:32</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <invalid>1</invalid>
+    </routine>
+    <routine id="135" parent="1" name="PROCESO_DETALLE_FACTURA">
+      <object-id>101642</object-id>
+      <created-timestamp>2016-11-04.23:04:44</created-timestamp>
+      <modified-timestamp>2016-11-05.08:49:18</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="136" parent="1" name="PRUEBA">
+      <object-id>97083</object-id>
+      <created-timestamp>2016-09-15.00:37:22</created-timestamp>
+      <modified-timestamp>2016-09-15.00:45:23</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="137" parent="1" name="PRUEBA_SP">
+      <object-id>94129</object-id>
+      <created-timestamp>2016-07-16.11:19:56</created-timestamp>
+      <modified-timestamp>2016-07-16.11:32:11</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+      <invalid>1</invalid>
+    </routine>
+    <routine id="138" parent="1" name="QUIROZ_PRUEBA">
+      <object-id>97080</object-id>
+      <created-timestamp>2016-09-14.23:47:46</created-timestamp>
+      <modified-timestamp>2016-09-15.00:34:41</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="139" parent="1" name="REFCURSORKIM">
+      <object-id>96732</object-id>
+      <created-timestamp>2016-09-08.22:33:32</created-timestamp>
+      <modified-timestamp>2016-09-14.23:45:15</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="140" parent="1" name="SP_INSERTA_CHEQUES">
+      <object-id>105289</object-id>
+      <created-timestamp>2016-11-29.19:28:45</created-timestamp>
+      <modified-timestamp>2016-12-01.18:14:34</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="141" parent="1" name="SP_INSERTA_PERSONAS">
+      <object-id>93055</object-id>
+      <created-timestamp>2016-10-19.23:44:41</created-timestamp>
+      <modified-timestamp>2016-10-19.23:53:05</modified-timestamp>
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <package id="142" parent="1" name="PGK_PROCESOS_AUTOMOVILES">
+      <object-id>97834</object-id>
+      <created-timestamp>2016-09-29.00:45:41</created-timestamp>
+      <modified-timestamp>2016-09-29.00:45:41</modified-timestamp>
+      <invalid>1</invalid>
+    </package>
+    <package id="143" parent="1" name="PKG_PROCESOS_AUTOMOVILES">
+      <object-id>97835</object-id>
+      <created-timestamp>2016-09-29.00:46:02</created-timestamp>
+      <modified-timestamp>2016-09-29.23:56:31</modified-timestamp>
+      <invalid>1</invalid>
+    </package>
+    <package id="144" parent="1" name="PKG_PROCESOS_INSERTAR">
+      <object-id>97630</object-id>
+      <created-timestamp>2016-09-25.17:03:14</created-timestamp>
+      <modified-timestamp>2016-09-25.17:03:32</modified-timestamp>
+    </package>
+    <package id="145" parent="1" name="PROCESOS_AUTOMOVILES">
+      <object-id>97667</object-id>
+      <created-timestamp>2016-09-26.23:26:18</created-timestamp>
+      <modified-timestamp>2016-10-19.23:56:36</modified-timestamp>
+    </package>
+    <column id="146" parent="81" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(4)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_97076&quot;.nextval</default-expression>
+    </column>
+    <column id="147" parent="81" name="ID_EMPRESA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="148" parent="81" name="NOMBRE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(32)|0</data-type>
+    </column>
+    <column id="149" parent="81" name="CATEGORIA">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(20)|0</data-type>
+    </column>
+    <column id="150" parent="81" name="FECHA_FABRICACION">
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="151" parent="81" name="EXPIRA">
+      <data-type>CHAR(1)|0</data-type>
+      <default-expression>&apos;N&apos;</default-expression>
+    </column>
+    <column id="152" parent="81" name="FECHA_EXPIRACION">
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="153" parent="81" name="PRECIO">
+      <data-type>NUMBER(18,6)|0</data-type>
+    </column>
+    <column id="154" parent="81" name="CANTIDAD">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <foreign-key id="155" parent="81" name="FK_EMPRESA">
+      <modified-timestamp>2016-09-14.23:19:47</modified-timestamp>
+      <columns>ID_EMPRESA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.ENTIDAD.SYS_C0011355</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="156" parent="82" name="ID">
+      <comment>Clave Primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_99138&quot;.nextval</default-expression>
+    </column>
+    <column id="157" parent="82" name="DESCRIPCION_ASIENTO">
+      <comment>Descripcion del Asiento Contable</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(100)|0</data-type>
+    </column>
+    <column id="158" parent="82" name="FECHA_ASIENTO">
+      <comment>Fecha del Asiento</comment>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE
+</default-expression>
+    </column>
+    <index id="159" parent="82" name="SYS_C0012792">
+      <name-surrogate>1</name-surrogate>
+      <object-id>99140</object-id>
+      <created-timestamp>2016-10-15.10:10:43</created-timestamp>
+      <modified-timestamp>2016-10-15.10:10:43</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="160" parent="82" name="SYS_C0012792">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-10-15.10:10:43</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0012792</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="161" parent="83" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_100074&quot;.nextval</default-expression>
+    </column>
+    <column id="162" parent="83" name="MARCA">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(70)|0</data-type>
+    </column>
+    <column id="163" parent="83" name="MODELO">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(100)|0</data-type>
+    </column>
+    <column id="164" parent="83" name="MATRICULA">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(8)|0</data-type>
+    </column>
+    <column id="165" parent="83" name="ANIO">
+      <data-type>NVARCHAR2(5)|0</data-type>
+    </column>
+    <column id="166" parent="83" name="COLOR">
+      <data-type>NVARCHAR2(20)|0</data-type>
+    </column>
+    <column id="167" parent="83" name="COMBUSTIBLE">
+      <data-type>NVARCHAR2(20)|0</data-type>
+    </column>
+    <column id="168" parent="83" name="FECHAREGISTRO">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+      <default-expression>sysdate</default-expression>
+    </column>
+    <column id="169" parent="83" name="FECHAACTUALIZACION">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+      <default-expression>sysdate</default-expression>
+    </column>
+    <index id="170" parent="83" name="SYS_C0014126">
+      <name-surrogate>1</name-surrogate>
+      <object-id>100076</object-id>
+      <created-timestamp>2016-10-19.23:54:58</created-timestamp>
+      <modified-timestamp>2016-10-19.23:54:58</modified-timestamp>
+      <columns>MATRICULA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="171" parent="83" name="SYS_C0014126">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-10-19.23:54:58</modified-timestamp>
+      <columns>MATRICULA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0014126</underlying-index>
+    </key>
+    <column id="172" parent="84" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105450&quot;.nextval</default-expression>
+    </column>
+    <column id="173" parent="84" name="CODIGO_BANCO">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(10)|0</data-type>
+    </column>
+    <column id="174" parent="84" name="RAZON_SOCIAL">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(50)|0</data-type>
+    </column>
+    <column id="175" parent="84" name="ESTADO">
+      <data-type>CHAR(2)|0</data-type>
+      <default-expression>&apos;AC&apos;
+</default-expression>
+    </column>
+    <index id="176" parent="84" name="SYS_C0019327">
+      <name-surrogate>1</name-surrogate>
+      <object-id>103492</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="177" parent="84" name="SYS_C0020860">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105452</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="178" parent="84" name="SYS_C0020861">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105453</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>CODIGO_BANCO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="179" parent="84" name="SYS_C0019327">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0019327</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="180" parent="84" name="SYS_C0020860">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020860</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="181" parent="84" name="SYS_C0020861">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>CODIGO_BANCO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020861</underlying-index>
+    </key>
+    <column id="182" parent="85" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="183" parent="85" name="CODIGO_BANCO">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="184" parent="85" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="185" parent="85" name="RAZON_SOCIAL">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(50)|0</data-type>
+    </column>
+    <column id="186" parent="86" name="ID">
+      <comment>Clave Primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105515&quot;.nextval</default-expression>
+    </column>
+    <column id="187" parent="86" name="NUM_CHEQUE">
+      <comment>Numero de Cheque Generado</comment>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;NUM_CHEQUE&quot;.&quot;NEXTVAL&quot;</default-expression>
+    </column>
+    <column id="188" parent="86" name="DESCRIPCION">
+      <data-type>NVARCHAR2(150)|0</data-type>
+      <default-expression>&apos;Asiento de Cheques correspondiente al periodo 2016-10&apos;</default-expression>
+    </column>
+    <column id="189" parent="86" name="AUXILIAR">
+      <data-type>NUMBER(2)|0</data-type>
+      <default-expression>9</default-expression>
+    </column>
+    <column id="190" parent="86" name="TIPO_MOVIMIENTO">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="191" parent="86" name="ID_CUENTA_CONT">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(3)|0</data-type>
+    </column>
+    <column id="192" parent="86" name="CUENTA_CONTABLE_PROVEEDOR">
+      <comment>Cuenta del proveedor</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="193" parent="86" name="CUENTA_CONTABLE_BANCO">
+      <comment>Cuenta del banco</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="194" parent="86" name="MONTO">
+      <comment>Monto del cheque generado</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="195" parent="86" name="ESTADO">
+      <comment>Monto restante en bancos</comment>
+      <data-type>CHAR(2)|0</data-type>
+      <default-expression>&apos;PR&apos;</default-expression>
+    </column>
+    <column id="196" parent="86" name="FECHA_GENERACION">
+      <comment>Fecha de Generacion de la solicitud</comment>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE
+</default-expression>
+    </column>
+    <index id="197" parent="86" name="SYS_C0020938">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105517</object-id>
+      <created-timestamp>2016-11-30.20:29:20</created-timestamp>
+      <modified-timestamp>2016-11-30.20:29:20</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="198" parent="86" name="SYS_C0020939">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105518</object-id>
+      <created-timestamp>2016-11-30.20:29:20</created-timestamp>
+      <modified-timestamp>2016-11-30.20:29:20</modified-timestamp>
+      <columns>NUM_CHEQUE</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="199" parent="86" name="SYS_C0020938">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-30.20:29:20</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020938</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="200" parent="86" name="SYS_C0020939">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-30.20:29:20</modified-timestamp>
+      <columns>NUM_CHEQUE</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020939</underlying-index>
+    </key>
+    <trigger id="201" parent="86" name="RESTA_MONTO">
+      <object-id>105514</object-id>
+      <created-timestamp>2016-11-30.20:37:17</created-timestamp>
+      <modified-timestamp>2016-11-30.20:37:17</modified-timestamp>
+      <trig-events>I</trig-events>
+      <trig-turn>AFTER_STMT</trig-turn>
+    </trigger>
+    <column id="202" parent="87" name="ID">
+      <comment>Clave Primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105532&quot;.nextval</default-expression>
+    </column>
+    <column id="203" parent="87" name="NUM_CHEQUE">
+      <comment>Numero de Cheque rechazado</comment>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;NUM_CHEQUE&quot;.&quot;NEXTVAL&quot;</default-expression>
+    </column>
+    <column id="204" parent="87" name="DESCRIPCION_RECHAZO">
+      <comment>Decripcion del rechazo</comment>
+      <data-type>NVARCHAR2(200)|0</data-type>
+      <default-expression>&apos;Asiento de Cheques correspondiente al periodo 2016-10&apos;</default-expression>
+    </column>
+    <column id="205" parent="87" name="CUENTA_CONTABLE_PROVEEDOR">
+      <comment>Cuenta del proveedor</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="206" parent="87" name="CUENTA_CONTABLE_BANCO">
+      <comment>Cuenta del banco</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="207" parent="87" name="MONTO_RECHAZADO">
+      <comment>Monto del cheque generado</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="208" parent="87" name="MONTO_ACTUAL">
+      <comment>Monto del cheque generado</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="209" parent="87" name="ESTADO">
+      <comment>Monto restante en bancos</comment>
+      <data-type>CHAR(2)|0</data-type>
+      <default-expression>&apos;RE&apos;</default-expression>
+    </column>
+    <column id="210" parent="87" name="FECHA_RECHAZO">
+      <comment>Fecha de Generacion de la solicitud</comment>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE
+</default-expression>
+    </column>
+    <index id="211" parent="87" name="SYS_C0020949">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105534</object-id>
+      <created-timestamp>2016-11-30.23:20:36</created-timestamp>
+      <modified-timestamp>2016-11-30.23:20:36</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="212" parent="87" name="SYS_C0020950">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105535</object-id>
+      <created-timestamp>2016-11-30.23:20:36</created-timestamp>
+      <modified-timestamp>2016-11-30.23:20:36</modified-timestamp>
+      <columns>NUM_CHEQUE</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="213" parent="87" name="SYS_C0020949">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-30.23:20:36</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020949</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="214" parent="87" name="SYS_C0020950">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-30.23:20:36</modified-timestamp>
+      <columns>NUM_CHEQUE</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020950</underlying-index>
+    </key>
+    <column id="215" parent="88" name="ID">
+      <comment>Clave primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_104284&quot;.nextval</default-expression>
+    </column>
+    <column id="216" parent="88" name="NOMBRE_CIUDAD">
+      <comment>Nombre de la ciudad o municipio</comment>
+      <data-type>NVARCHAR2(50)|0</data-type>
+    </column>
+    <column id="217" parent="88" name="CODIGO_PROVINCIA">
+      <comment>Provincia a la que pertence</comment>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="218" parent="88" name="CODIGO_MUNICIPIO">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="219" parent="88" name="NOMBRE_PROVINCIA">
+      <data-type>NVARCHAR2(50)|0</data-type>
+    </column>
+    <index id="220" parent="88" name="SYS_C0020117">
+      <name-surrogate>1</name-surrogate>
+      <object-id>104286</object-id>
+      <created-timestamp>2016-11-15.00:27:30</created-timestamp>
+      <modified-timestamp>2016-11-15.00:27:30</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="221" parent="88" name="SYS_C0020117">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-15.00:27:30</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020117</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="222" parent="89" name="ID">
+      <comment>Clave primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_101878&quot;.nextval</default-expression>
+    </column>
+    <column id="223" parent="89" name="NOMBRES">
+      <comment>Nombre del Cliente</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(40)|0</data-type>
+    </column>
+    <column id="224" parent="89" name="APELLIDOS">
+      <comment>Apellido del Cliente</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(40)|0</data-type>
+    </column>
+    <column id="225" parent="89" name="DIRECCION">
+      <comment>Direccion del Cliente</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="226" parent="89" name="FECHA_NACIMIENTO">
+      <comment>Fecha de nacimiento del cliente</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="227" parent="89" name="TELEFONO">
+      <comment>Telefeno del Cliente</comment>
+      <mandatory>1</mandatory>
+      <data-type>CHAR(12)|0</data-type>
+    </column>
+    <column id="228" parent="89" name="MAIL">
+      <comment>Correo principal del Cliente</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(50)|0</data-type>
+    </column>
+    <column id="229" parent="89" name="CATEGORIA">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(15)|0</data-type>
+    </column>
+    <column id="230" parent="89" name="ESTADO">
+      <comment>Estado del Cliente en el sistema . 1=Activo ; 0=Inactivo</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+      <default-expression>1</default-expression>
+    </column>
+    <column id="231" parent="89" name="FECHA_MODIFICACION">
+      <comment>Fecha en la cual se modifico por ultima vez el registro</comment>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE  
+</default-expression>
+    </column>
+    <index id="232" parent="89" name="SYS_C0015954">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101880</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="233" parent="89" name="SYS_C0015955">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101881</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>MAIL</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="234" parent="89" name="SYS_C0015954">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015954</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="235" parent="89" name="SYS_C0015955">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>MAIL</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015955</underlying-index>
+    </key>
+    <column id="236" parent="90" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105454&quot;.nextval</default-expression>
+    </column>
+    <column id="237" parent="90" name="CODIGO_PAGO">
+      <data-type>NUMBER(18,2)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;COD_CONCP_PAGOS&quot;.&quot;NEXTVAL&quot;</default-expression>
+    </column>
+    <column id="238" parent="90" name="DESCRIPCION_CORTA">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="239" parent="90" name="DESCRIPCION_LARGA">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="240" parent="90" name="SIGLAS">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(11)|0</data-type>
+    </column>
+    <column id="241" parent="90" name="ESTADO">
+      <data-type>CHAR(2)|0</data-type>
+      <default-expression>&apos;AC&apos;
+</default-expression>
+    </column>
+    <index id="242" parent="90" name="SYS_C0020866">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105456</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="243" parent="90" name="SYS_C0020867">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105457</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>SIGLAS</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="244" parent="90" name="SYS_C0020866">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020866</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="245" parent="90" name="SYS_C0020867">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>SIGLAS</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020867</underlying-index>
+    </key>
+    <column id="246" parent="91" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_104282&quot;.nextval</default-expression>
+    </column>
+    <column id="247" parent="91" name="NOMBRE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(40)|0</data-type>
+    </column>
+    <column id="248" parent="91" name="DIRECCION">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="249" parent="91" name="FECHA_REGISTRO">
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <foreign-key id="250" parent="91" name="FK_DIRECCION">
+      <modified-timestamp>2016-11-15.00:12:11</modified-timestamp>
+      <columns>DIRECCION</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.DIRECCIONES.SYS_C0020107</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="251" parent="92" name="COUNTRY_ID">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="252" parent="92" name="COUNTRY_NAME">
+      <data-type>VARCHAR2(40)|0</data-type>
+    </column>
+    <column id="253" parent="92" name="REGION_ID">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <index id="254" parent="92" name="COUNTRY_C_ID_PK">
+      <object-id>95832</object-id>
+      <created-timestamp>2016-08-20.01:19:14</created-timestamp>
+      <modified-timestamp>2016-08-20.01:19:14</modified-timestamp>
+      <columns>COUNTRY_ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="255" parent="92" name="COUNTRY_C_ID_PK">
+      <modified-timestamp>2016-08-20.01:19:14</modified-timestamp>
+      <columns>COUNTRY_ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>COUNTRY_C_ID_PK</underlying-index>
+      <primary>1</primary>
+    </key>
+    <check id="256" parent="92" name="COUNTRY_ID_NN">
+      <modified-timestamp>2016-08-20.01:19:14</modified-timestamp>
+      <columns>COUNTRY_ID</columns>
+      <predicate>&quot;COUNTRY_ID&quot; IS NOT NULL</predicate>
+    </check>
+    <column id="257" parent="93" name="ID">
+      <comment>Clave Primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_99141&quot;.nextval</default-expression>
+    </column>
+    <column id="258" parent="93" name="ID_ASIENTO">
+      <comment>Relacion con Asientos Contables</comment>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="259" parent="93" name="CUENTA_CONTABLE">
+      <comment>Descripcion de la Cuenta Contable</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(60)|0</data-type>
+    </column>
+    <column id="260" parent="93" name="GRUPO_CUENTA">
+      <comment>Grupo al que pertenece la cuenta activo, pasivo, capital, ingreso, costo y gasto</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(60)|0</data-type>
+    </column>
+    <column id="261" parent="93" name="TIPO_MOVIMIENTO">
+      <comment>Tipo Moviemiento Debito(DB), Credito (CR)</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(2)|0</data-type>
+    </column>
+    <column id="262" parent="93" name="MONTO_MOVIMIENTO">
+      <comment>Monto del Moviemiento</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="263" parent="93" name="FECHA_MOVIMIENTO">
+      <comment>Fecha del Movimiento</comment>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <foreign-key id="264" parent="93" name="FK_ASIENTO">
+      <modified-timestamp>2016-10-15.10:10:43</modified-timestamp>
+      <columns>ID_ASIENTO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.ASIENTO_CONTABLES.SYS_C0012792</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="265" parent="94" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105458&quot;.nextval</default-expression>
+    </column>
+    <column id="266" parent="94" name="CODIGO_BANCO">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(10)|0</data-type>
+    </column>
+    <column id="267" parent="94" name="RNC_CEDULA_PROVEEDOR">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(11)|0</data-type>
+    </column>
+    <column id="268" parent="94" name="CUENTA_CONTABLE">
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;NUM_CUENTA&quot;.&quot;NEXTVAL&quot;</default-expression>
+    </column>
+    <column id="269" parent="94" name="MONTO_CUENTA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="270" parent="94" name="DESCRIPCION">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="271" parent="94" name="ESTADO">
+      <data-type>CHAR(2)|0</data-type>
+      <default-expression>&apos;AC&apos;</default-expression>
+    </column>
+    <index id="272" parent="94" name="SYS_C0020873">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105460</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="273" parent="94" name="SYS_C0020874">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105461</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>CUENTA_CONTABLE</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="274" parent="94" name="SYS_C0020873">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020873</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="275" parent="94" name="SYS_C0020874">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>CUENTA_CONTABLE</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020874</underlying-index>
+    </key>
+    <foreign-key id="276" parent="94" name="FK_BANCO_CUENTA">
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>CODIGO_BANCO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.BANCO.SYS_C0020861</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="277" parent="95" name="DEPARTMENT_ID">
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="278" parent="95" name="DEPARTMENT_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="279" parent="95" name="MANAGER_ID">
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <column id="280" parent="95" name="LOCATION_ID">
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <check id="281" parent="95" name="DEPT_NAME_NN">
+      <modified-timestamp>2016-08-20.01:19:48</modified-timestamp>
+      <columns>DEPARTMENT_NAME</columns>
+      <predicate>&quot;DEPARTMENT_NAME&quot; IS NOT NULL</predicate>
+    </check>
+    <column id="282" parent="96" name="ID">
+      <comment>Clave primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_101892&quot;.nextval</default-expression>
+    </column>
+    <column id="283" parent="96" name="ID_FACTURA">
+      <comment>Relacion con la tabla facturas</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="284" parent="96" name="PRODUCTO">
+      <comment>Relacion con la tabla productos</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="285" parent="96" name="LINEA_FACTURA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="286" parent="96" name="DESCRIPCION">
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="287" parent="96" name="CANTIDAD">
+      <comment>Cantidad de productos comprados</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18)|0</data-type>
+    </column>
+    <column id="288" parent="96" name="PRECIO_UNITARIO">
+      <comment>Precio Unitario de cada producto mostrado en RD$</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="289" parent="96" name="PRECIO_TOTAL">
+      <comment>Precio total de cada producto x cantidad mostrado en RD$</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="290" parent="96" name="PROCESADA">
+      <data-type>CHAR(1)|0</data-type>
+      <default-expression>&apos;N&apos;</default-expression>
+    </column>
+    <index id="291" parent="96" name="SYS_C0015984">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101894</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="292" parent="96" name="SYS_C0015984">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015984</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="293" parent="96" name="FK_FACTURA_DET">
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <columns>ID_FACTURA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.FACTURA.SYS_C0015962</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="294" parent="96" name="FK_PRODUCTO_DET">
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <columns>PRODUCTO</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.PRODUCTOS.SYS_C0015975</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <trigger id="295" parent="96" name="DESCUENTA_INVENTARIO">
+      <object-id>101579</object-id>
+      <created-timestamp>2016-11-05.08:49:12</created-timestamp>
+      <modified-timestamp>2016-11-05.08:49:12</modified-timestamp>
+      <trig-events>I</trig-events>
+      <trig-turn>AFTER_STMT</trig-turn>
+    </trigger>
+    <column id="296" parent="97" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_104279&quot;.nextval</default-expression>
+    </column>
+    <column id="297" parent="97" name="CALLE">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(90)|0</data-type>
+    </column>
+    <column id="298" parent="97" name="COD_CIUDAD">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="299" parent="97" name="COD_PROVINCIA">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="300" parent="97" name="CODIGO_AREA">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <index id="301" parent="97" name="SYS_C0020107">
+      <name-surrogate>1</name-surrogate>
+      <object-id>104281</object-id>
+      <created-timestamp>2016-11-15.00:11:20</created-timestamp>
+      <modified-timestamp>2016-11-15.00:11:20</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="302" parent="97" name="SYS_C0020107">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-15.00:11:20</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020107</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="303" parent="97" name="FK_PROV">
+      <modified-timestamp>2016-11-15.00:11:20</modified-timestamp>
+      <columns>COD_PROVINCIA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.PROVINCIA.SYS_C0016025</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="304" parent="98" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_97409&quot;.nextval</default-expression>
+    </column>
+    <column id="305" parent="98" name="ID_EMPRESA_NOMINA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="306" parent="98" name="CEDULA">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(11)|0</data-type>
+    </column>
+    <column id="307" parent="98" name="NOMBRE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(25)|0</data-type>
+    </column>
+    <column id="308" parent="98" name="APELLIDO">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="309" parent="98" name="GENERO">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(1)|0</data-type>
+    </column>
+    <column id="310" parent="98" name="FECHA_NACIMIENTO">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="311" parent="98" name="SALARIO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(16,2)|0</data-type>
+    </column>
+    <index id="312" parent="98" name="SYS_C0011699">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97411</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="313" parent="98" name="SYS_C0011700">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97412</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>CEDULA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="314" parent="98" name="SYS_C0011699">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011699</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="315" parent="98" name="SYS_C0011700">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>CEDULA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011700</underlying-index>
+    </key>
+    <foreign-key id="316" parent="98" name="FK_NOMINA">
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>ID_EMPRESA_NOMINA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.NOMINA.SYS_C0011689</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="317" parent="99" name="EMPLOYEE_ID">
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <column id="318" parent="99" name="FIRST_NAME">
+      <data-type>VARCHAR2(20)|0</data-type>
+    </column>
+    <column id="319" parent="99" name="LAST_NAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(25)|0</data-type>
+    </column>
+    <column id="320" parent="99" name="EMAIL">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(25)|0</data-type>
+    </column>
+    <column id="321" parent="99" name="PHONE_NUMBER">
+      <data-type>VARCHAR2(20)|0</data-type>
+    </column>
+    <column id="322" parent="99" name="HIRE_DATE">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="323" parent="99" name="JOB_ID">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="324" parent="99" name="SALARY">
+      <data-type>NUMBER(8,2)|0</data-type>
+    </column>
+    <column id="325" parent="99" name="COMMISSION_PCT">
+      <data-type>NUMBER(2,2)|0</data-type>
+    </column>
+    <column id="326" parent="99" name="MANAGER_ID">
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <column id="327" parent="99" name="DEPARTMENT_ID">
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <check id="328" parent="99" name="EMP_LAST_NAME_NN">
+      <modified-timestamp>2016-08-20.01:19:52</modified-timestamp>
+      <columns>LAST_NAME</columns>
+      <predicate>&quot;LAST_NAME&quot; IS NOT NULL</predicate>
+    </check>
+    <check id="329" parent="99" name="EMP_EMAIL_NN">
+      <modified-timestamp>2016-08-20.01:19:52</modified-timestamp>
+      <columns>EMAIL</columns>
+      <predicate>&quot;EMAIL&quot; IS NOT NULL</predicate>
+    </check>
+    <check id="330" parent="99" name="EMP_HIRE_DATE_NN">
+      <modified-timestamp>2016-08-20.01:19:52</modified-timestamp>
+      <columns>HIRE_DATE</columns>
+      <predicate>&quot;HIRE_DATE&quot; IS NOT NULL</predicate>
+    </check>
+    <check id="331" parent="99" name="EMP_JOB_NN">
+      <modified-timestamp>2016-08-20.01:19:52</modified-timestamp>
+      <columns>JOB_ID</columns>
+      <predicate>&quot;JOB_ID&quot; IS NOT NULL</predicate>
+    </check>
+    <column id="332" parent="100" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_97071&quot;.nextval</default-expression>
+    </column>
+    <column id="333" parent="100" name="TIPO_EMPRESA">
+      <data-type>NUMBER(2)|0</data-type>
+    </column>
+    <column id="334" parent="100" name="CODIGO_EMPRESA">
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="335" parent="100" name="DESC_EMPRESA">
+      <data-type>VARCHAR2(20)|0</data-type>
+    </column>
+    <column id="336" parent="100" name="RNC">
+      <data-type>VARCHAR2(11)|0</data-type>
+    </column>
+    <index id="337" parent="100" name="SYS_C0011355">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97073</object-id>
+      <created-timestamp>2016-09-14.23:18:08</created-timestamp>
+      <modified-timestamp>2016-09-14.23:18:08</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="338" parent="100" name="SYS_C0011356">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97074</object-id>
+      <created-timestamp>2016-09-14.23:18:08</created-timestamp>
+      <modified-timestamp>2016-09-14.23:18:08</modified-timestamp>
+      <columns>DESC_EMPRESA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="339" parent="100" name="SYS_C0011357">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97075</object-id>
+      <created-timestamp>2016-09-14.23:18:08</created-timestamp>
+      <modified-timestamp>2016-09-14.23:18:08</modified-timestamp>
+      <columns>RNC</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="340" parent="100" name="SYS_C0011355">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-14.23:18:08</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011355</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="341" parent="100" name="SYS_C0011356">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-14.23:18:08</modified-timestamp>
+      <columns>DESC_EMPRESA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011356</underlying-index>
+    </key>
+    <key id="342" parent="100" name="SYS_C0011357">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-14.23:18:08</modified-timestamp>
+      <columns>RNC</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011357</underlying-index>
+    </key>
+    <column id="343" parent="101" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_97400&quot;.nextval</default-expression>
+    </column>
+    <column id="344" parent="101" name="TIPO_EMPRESA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="345" parent="101" name="CODIGO_EMPRESA">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(40)|0</data-type>
+    </column>
+    <column id="346" parent="101" name="DESCRIPCION">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="347" parent="101" name="RNC">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(11)|0</data-type>
+    </column>
+    <column id="348" parent="101" name="REGISTRO_PATRONAL">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="349" parent="101" name="FECHA_INGRESO">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <index id="350" parent="101" name="SYS_C0011680">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97402</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="351" parent="101" name="SYS_C0011681">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97403</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>CODIGO_EMPRESA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="352" parent="101" name="SYS_C0011682">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97404</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>RNC</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="353" parent="101" name="SYS_C0011683">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97405</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>REGISTRO_PATRONAL</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="354" parent="101" name="SYS_C0011680">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011680</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="355" parent="101" name="SYS_C0011681">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>CODIGO_EMPRESA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011681</underlying-index>
+    </key>
+    <key id="356" parent="101" name="SYS_C0011682">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>RNC</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011682</underlying-index>
+    </key>
+    <key id="357" parent="101" name="SYS_C0011683">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>REGISTRO_PATRONAL</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011683</underlying-index>
+    </key>
+    <column id="358" parent="102" name="ID">
+      <comment>Clave primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_101882&quot;.nextval</default-expression>
+    </column>
+    <column id="359" parent="102" name="NUMERO_FACTURA">
+      <comment>Numero de la Factura</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18)|0</data-type>
+    </column>
+    <column id="360" parent="102" name="ID_CLIENTE">
+      <comment>ID del cliente de la Factura</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="361" parent="102" name="FECHA_FACTURA">
+      <comment>Fecha de emision de la factura</comment>
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <column id="362" parent="102" name="ITBIS">
+      <comment>Impuesto en RD</comment>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="363" parent="102" name="MONTO_PARCIAL">
+      <comment>Monto sin impuestos</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="364" parent="102" name="MONTO_TOTAL">
+      <comment>Monto total de la Factura</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <index id="365" parent="102" name="SYS_C0015962">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101884</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="366" parent="102" name="SYS_C0015963">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101885</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>NUMERO_FACTURA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="367" parent="102" name="SYS_C0015962">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015962</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="368" parent="102" name="SYS_C0015963">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>NUMERO_FACTURA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015963</underlying-index>
+    </key>
+    <foreign-key id="369" parent="102" name="CLIENTE_FACTURA">
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>ID_CLIENTE</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.CLIENTE.SYS_C0015954</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="370" parent="103" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_93771&quot;.nextval</default-expression>
+    </column>
+    <column id="371" parent="103" name="ID_TIPO_HABITACION">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="372" parent="103" name="PRECIO_POR_NOCHE">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(8,2)|0</data-type>
+    </column>
+    <column id="373" parent="103" name="CANT_MAX_PERSONAS">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <column id="374" parent="103" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <index id="375" parent="103" name="SYS_C0010916">
+      <name-surrogate>1</name-surrogate>
+      <object-id>93773</object-id>
+      <created-timestamp>2016-07-11.19:43:33</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:33</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="376" parent="103" name="SYS_C0010916">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-11.19:43:33</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0010916</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="377" parent="103" name="ID_TIPO_HABITACION_FK">
+      <modified-timestamp>2016-07-11.19:43:33</modified-timestamp>
+      <columns>ID_TIPO_HABITACION</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.TIPOS_HABITACIONES.SYS_C0010910</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="378" parent="104" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>RAW(16)|0</data-type>
+    </column>
+    <column id="379" parent="104" name="DATE_LOADED">
+      <data-type>TIMESTAMP(6) WITH TIME ZONE|0</data-type>
+    </column>
+    <column id="380" parent="104" name="PO_DOCUMENT">
+      <data-type>CLOB|0</data-type>
+    </column>
+    <check id="381" parent="104" name="ENSURE_JSON">
+      <modified-timestamp>2016-10-07.21:44:03</modified-timestamp>
+      <columns>PO_DOCUMENT</columns>
+      <predicate>po_document IS JSON</predicate>
+    </check>
+    <column id="382" parent="105" name="EMPLOYEE_ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <column id="383" parent="105" name="START_DATE">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="384" parent="105" name="END_DATE">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="385" parent="105" name="JOB_ID">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="386" parent="105" name="DEPARTMENT_ID">
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <check id="387" parent="105" name="JHIST_EMPLOYEE_NN">
+      <modified-timestamp>2016-08-20.01:19:56</modified-timestamp>
+      <columns>EMPLOYEE_ID</columns>
+      <predicate>&quot;EMPLOYEE_ID&quot; IS NOT NULL</predicate>
+    </check>
+    <check id="388" parent="105" name="JHIST_START_DATE_NN">
+      <modified-timestamp>2016-08-20.01:19:56</modified-timestamp>
+      <columns>START_DATE</columns>
+      <predicate>&quot;START_DATE&quot; IS NOT NULL</predicate>
+    </check>
+    <check id="389" parent="105" name="JHIST_END_DATE_NN">
+      <modified-timestamp>2016-08-20.01:19:56</modified-timestamp>
+      <columns>END_DATE</columns>
+      <predicate>&quot;END_DATE&quot; IS NOT NULL</predicate>
+    </check>
+    <check id="390" parent="105" name="JHIST_JOB_NN">
+      <modified-timestamp>2016-08-20.01:19:56</modified-timestamp>
+      <columns>JOB_ID</columns>
+      <predicate>&quot;JOB_ID&quot; IS NOT NULL</predicate>
+    </check>
+    <column id="391" parent="106" name="JOB_ID">
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="392" parent="106" name="JOB_TITLE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(35)|0</data-type>
+    </column>
+    <column id="393" parent="106" name="MIN_SALARY">
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <column id="394" parent="106" name="MAX_SALARY">
+      <data-type>NUMBER(6)|0</data-type>
+    </column>
+    <check id="395" parent="106" name="JOB_TITLE_NN">
+      <modified-timestamp>2016-08-20.01:18:57</modified-timestamp>
+      <columns>JOB_TITLE</columns>
+      <predicate>&quot;JOB_TITLE&quot; IS NOT NULL</predicate>
+    </check>
+    <column id="396" parent="107" name="LOCATION_ID">
+      <data-type>NUMBER(4)|0</data-type>
+    </column>
+    <column id="397" parent="107" name="STREET_ADDRESS">
+      <data-type>VARCHAR2(40)|0</data-type>
+    </column>
+    <column id="398" parent="107" name="POSTAL_CODE">
+      <data-type>VARCHAR2(12)|0</data-type>
+    </column>
+    <column id="399" parent="107" name="CITY">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(30)|0</data-type>
+    </column>
+    <column id="400" parent="107" name="STATE_PROVINCE">
+      <data-type>VARCHAR2(25)|0</data-type>
+    </column>
+    <column id="401" parent="107" name="COUNTRY_ID">
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <check id="402" parent="107" name="LOC_CITY_NN">
+      <modified-timestamp>2016-08-20.01:19:20</modified-timestamp>
+      <columns>CITY</columns>
+      <predicate>&quot;CITY&quot; IS NOT NULL</predicate>
+    </check>
+    <column id="403" parent="108" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="404" parent="108" name="DESCRIPCION">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(200)|0</data-type>
+    </column>
+    <index id="405" parent="108" name="SYS_C0010926">
+      <name-surrogate>1</name-surrogate>
+      <object-id>93778</object-id>
+      <created-timestamp>2016-07-11.19:43:37</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:37</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="406" parent="108" name="SYS_C0010927">
+      <name-surrogate>1</name-surrogate>
+      <object-id>93779</object-id>
+      <created-timestamp>2016-07-11.19:43:37</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:37</modified-timestamp>
+      <columns>DESCRIPCION</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="407" parent="108" name="SYS_C0010926">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-11.19:43:37</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0010926</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="408" parent="108" name="SYS_C0010927">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-11.19:43:37</modified-timestamp>
+      <columns>DESCRIPCION</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0010927</underlying-index>
+    </key>
+    <column id="409" parent="109" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(8)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_97406&quot;.nextval</default-expression>
+    </column>
+    <column id="410" parent="109" name="ID_EMPRESA_NOMINA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="411" parent="109" name="TIPO_NOMINA">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(50)|0</data-type>
+    </column>
+    <column id="412" parent="109" name="TIPO_NOVEDAD">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(60)|0</data-type>
+    </column>
+    <column id="413" parent="109" name="PERIODO_FACTURA">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(6)|0</data-type>
+    </column>
+    <index id="414" parent="109" name="SYS_C0011689">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97408</object-id>
+      <created-timestamp>2016-09-17.10:41:00</created-timestamp>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>ID_EMPRESA_NOMINA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="415" parent="109" name="SYS_C0011689">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>ID_EMPRESA_NOMINA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011689</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="416" parent="109" name="FK_EMPRESA_NOMINA">
+      <modified-timestamp>2016-09-17.10:41:00</modified-timestamp>
+      <columns>ID_EMPRESA_NOMINA</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.ENTIDADES.SYS_C0011680</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="417" parent="110" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_97827&quot;.nextval</default-expression>
+    </column>
+    <column id="418" parent="110" name="CO_PAIS">
+      <data-type>VARCHAR2(3)|0</data-type>
+    </column>
+    <column id="419" parent="110" name="DESCRIPCION">
+      <data-type>VARCHAR2(50)|0</data-type>
+    </column>
+    <column id="420" parent="110" name="CONTINENTE">
+      <data-type>VARCHAR2(25)|0</data-type>
+    </column>
+    <index id="421" parent="110" name="SYS_C0011771">
+      <name-surrogate>1</name-surrogate>
+      <object-id>97829</object-id>
+      <created-timestamp>2016-09-29.00:09:52</created-timestamp>
+      <modified-timestamp>2016-09-29.00:09:52</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="422" parent="110" name="SYS_C0011771">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-09-29.00:09:52</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011771</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="423" parent="111" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_100071&quot;.nextval</default-expression>
+    </column>
+    <column id="424" parent="111" name="NOMBRE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(70)|0</data-type>
+    </column>
+    <column id="425" parent="111" name="APELLIDO">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(70)|0</data-type>
+    </column>
+    <column id="426" parent="111" name="CEDULA">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(11)|0</data-type>
+    </column>
+    <column id="427" parent="111" name="CORREOELECTRONICO">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="428" parent="111" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+      <default-expression>1</default-expression>
+    </column>
+    <column id="429" parent="111" name="FECHANACIMIENTO">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+      <default-expression>sysdate</default-expression>
+    </column>
+    <column id="430" parent="111" name="FECHAREGISTRO">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <column id="431" parent="111" name="FECHAACTUALIZACION">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <index id="432" parent="111" name="SYS_C0014119">
+      <name-surrogate>1</name-surrogate>
+      <object-id>100073</object-id>
+      <created-timestamp>2016-10-19.23:50:50</created-timestamp>
+      <modified-timestamp>2016-10-19.23:50:50</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="433" parent="111" name="SYS_C0014119">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-10-19.23:50:50</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0014119</underlying-index>
+      <primary>1</primary>
+    </key>
+    <trigger id="434" parent="111" name="PERSONAS_TRIGGER">
+      <object-id>100081</object-id>
+      <created-timestamp>2016-10-20.00:14:19</created-timestamp>
+      <modified-timestamp>2016-10-20.00:30:31</modified-timestamp>
+      <trig-events>IU</trig-events>
+      <trig-turn>AFTER_ROW</trig-turn>
+      <invalid>1</invalid>
+    </trigger>
+    <column id="435" parent="112" name="ID">
+      <comment>Clave Primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_101888&quot;.nextval</default-expression>
+    </column>
+    <column id="436" parent="112" name="NOMBRE">
+      <comment>Nombre del producto</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(100)|0</data-type>
+    </column>
+    <column id="437" parent="112" name="DESCRIPCION">
+      <comment>Descripcion del Producto</comment>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="438" parent="112" name="CODIGO">
+      <comment>Codigo del producto</comment>
+      <mandatory>1</mandatory>
+      <data-type>CHAR(13)|0</data-type>
+    </column>
+    <column id="439" parent="112" name="PRECIO_COMPRA">
+      <comment>Precio de compra del producto mostrado en RD$</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(8)|0</data-type>
+    </column>
+    <column id="440" parent="112" name="PRECIO_VENTA">
+      <comment>Precio de venta del producto mostrado en RD$</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(8)|0</data-type>
+    </column>
+    <column id="441" parent="112" name="NOTA">
+      <data-type>NVARCHAR2(1000)|0</data-type>
+      <default-expression>NULL</default-expression>
+    </column>
+    <column id="442" parent="112" name="FECHA_INICIO_VENTA">
+      <comment>Fecha en la cual inicio la venta del articulo</comment>
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="443" parent="112" name="FECHA_FIN_VENTA">
+      <comment>Fecha en la cual se dejo de comercializar el articulo</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="444" parent="112" name="DISPONIBLE_VENTA">
+      <comment>Disponibilidad de venta 1 = Disponible 0 = No Disponible</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <column id="445" parent="112" name="FECHA_DISCONTINUIDAD">
+      <comment>Fecha en la cual se descontinuo el producto</comment>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="446" parent="112" name="FECHA_MODIFICACION">
+      <comment>Fecha en la cual se modifico por ultima vez el registro</comment>
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="447" parent="112" name="ESTADO">
+      <comment>Estado actual del producto 1= Activo 0= Inactivo</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+      <default-expression>1</default-expression>
+    </column>
+    <column id="448" parent="112" name="CANTIDAD">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <index id="449" parent="112" name="SYS_C0015975">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101890</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="450" parent="112" name="SYS_C0015976">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101891</object-id>
+      <created-timestamp>2016-11-05.08:48:47</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <columns>CODIGO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="451" parent="112" name="SYS_C0015975">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015975</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="452" parent="112" name="SYS_C0015976">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:47</modified-timestamp>
+      <columns>CODIGO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015976</underlying-index>
+    </key>
+    <column id="453" parent="113" name="ID">
+      <comment>Clave Primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105462&quot;.nextval</default-expression>
+    </column>
+    <column id="454" parent="113" name="NOMBRE">
+      <comment>Nombre del Proveedor</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(100)|0</data-type>
+    </column>
+    <column id="455" parent="113" name="DESCRIPCION">
+      <comment>Descripcion del proveedor</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="456" parent="113" name="TIPO_PERSONA">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="457" parent="113" name="RNC_CEDULA">
+      <comment>RNC o Cedula del proveedor</comment>
+      <mandatory>1</mandatory>
+      <data-type>CHAR(11)|0</data-type>
+    </column>
+    <column id="458" parent="113" name="CUENTA_CONTABLE">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="459" parent="113" name="BALANCE">
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="460" parent="113" name="DIRECCION">
+      <comment>Direccion fisica del proveedor</comment>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="461" parent="113" name="TELEFONO">
+      <comment>Numero telefonico del proveedor</comment>
+      <mandatory>1</mandatory>
+      <data-type>CHAR(10)|0</data-type>
+    </column>
+    <column id="462" parent="113" name="CORREO">
+      <comment>Correo electronico del proveedor</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(100)|0</data-type>
+    </column>
+    <column id="463" parent="113" name="FECHA_INSCRIPCION">
+      <comment>Fecha en la que se registro el proveedor</comment>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <column id="464" parent="113" name="FECHA_MODIFICACION">
+      <comment>fecha de la ultima actualizacion al registro</comment>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <column id="465" parent="113" name="ESTADO">
+      <comment>Estado del proveedor. 1=Activo ; 0=Inactivo</comment>
+      <data-type>CHAR(2)|0</data-type>
+      <default-expression>&apos;AC&apos;
+</default-expression>
+    </column>
+    <index id="466" parent="113" name="SYS_C0019360">
+      <name-surrogate>1</name-surrogate>
+      <object-id>103500</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="467" parent="113" name="SYS_C0020884">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105464</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="468" parent="113" name="SYS_C0020885">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105465</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>RNC_CEDULA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="469" parent="113" name="SYS_C0019360">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0019360</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="470" parent="113" name="SYS_C0020884">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020884</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="471" parent="113" name="SYS_C0020885">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>RNC_CEDULA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020885</underlying-index>
+    </key>
+    <column id="472" parent="114" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="473" parent="114" name="BALANCE">
+      <data-type>FLOAT(126)|0</data-type>
+    </column>
+    <column id="474" parent="114" name="CORREO">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="475" parent="114" name="CUENTA_CONTABLE">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="476" parent="114" name="DESCRIPCION">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(150)|0</data-type>
+    </column>
+    <column id="477" parent="114" name="DIRECCION">
+      <data-type>VARCHAR2(150)|0</data-type>
+    </column>
+    <column id="478" parent="114" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="479" parent="114" name="FECHA_INSCRIPCION">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="480" parent="114" name="FECHA_MODIFICACION">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="481" parent="114" name="NOMBRE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="482" parent="114" name="RNC_CEDULA">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(11)|0</data-type>
+    </column>
+    <column id="483" parent="114" name="TELEFONO">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(10)|0</data-type>
+    </column>
+    <column id="484" parent="114" name="TIPO_PERSONA">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(150)|0</data-type>
+    </column>
+    <column id="485" parent="115" name="ID">
+      <comment>Clave primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_102076&quot;.nextval</default-expression>
+    </column>
+    <column id="486" parent="115" name="NOMBRE_PROVINCIA">
+      <comment>Nombre de la Provincia</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(20)|0</data-type>
+    </column>
+    <column id="487" parent="115" name="CAPITAL">
+      <comment>Capital de La Provincia</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(30)|0</data-type>
+    </column>
+    <column id="488" parent="115" name="CODIGO_PROVINCIA">
+      <comment>Codigo Mapa de la Provincia</comment>
+      <mandatory>1</mandatory>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <index id="489" parent="115" name="SYS_C0016026">
+      <name-surrogate>1</name-surrogate>
+      <object-id>102079</object-id>
+      <created-timestamp>2016-11-06.12:48:35</created-timestamp>
+      <modified-timestamp>2016-11-06.12:48:35</modified-timestamp>
+      <columns>NOMBRE_PROVINCIA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="490" parent="115" name="SYS_C0016025">
+      <name-surrogate>1</name-surrogate>
+      <object-id>102078</object-id>
+      <created-timestamp>2016-11-06.12:48:35</created-timestamp>
+      <modified-timestamp>2016-11-06.12:48:35</modified-timestamp>
+      <columns>CODIGO_PROVINCIA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="491" parent="115" name="SYS_C0016025">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-06.12:48:35</modified-timestamp>
+      <columns>CODIGO_PROVINCIA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0016025</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="492" parent="115" name="SYS_C0016026">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-06.12:48:35</modified-timestamp>
+      <columns>NOMBRE_PROVINCIA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0016026</underlying-index>
+    </key>
+    <column id="493" parent="116" name="REGION_ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="494" parent="116" name="REGION_NAME">
+      <data-type>VARCHAR2(25)|0</data-type>
+    </column>
+    <check id="495" parent="116" name="REGION_ID_NN">
+      <modified-timestamp>2016-08-20.01:19:04</modified-timestamp>
+      <columns>REGION_ID</columns>
+      <predicate>&quot;REGION_ID&quot; IS NOT NULL</predicate>
+    </check>
+    <column id="496" parent="117" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_93774&quot;.nextval</default-expression>
+    </column>
+    <column id="497" parent="117" name="ID_HABITACION">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="498" parent="117" name="ID_USUARIO">
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="499" parent="117" name="FECHA_DESDE">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="500" parent="117" name="FECHA_HASTA">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="501" parent="117" name="MONTO_ESTADIA">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(8,2)|0</data-type>
+    </column>
+    <index id="502" parent="117" name="SYS_C0010922">
+      <name-surrogate>1</name-surrogate>
+      <object-id>93776</object-id>
+      <created-timestamp>2016-07-11.19:43:36</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:36</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="503" parent="117" name="SYS_C0010922">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-11.19:43:36</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0010922</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="504" parent="117" name="ID_HABITACION_FK">
+      <modified-timestamp>2016-07-11.19:43:36</modified-timestamp>
+      <columns>ID_HABITACION</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.HABITACIONES.SYS_C0010916</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="505" parent="118" name="ID">
+      <comment>Clave Primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105470&quot;.nextval</default-expression>
+    </column>
+    <column id="506" parent="118" name="DESCRIPCION">
+      <comment>Descripcion de los ROLES</comment>
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(150)|0</data-type>
+    </column>
+    <column id="507" parent="118" name="ESTADO">
+      <comment>Estado de los Roles. 1=Activo ; 0=Inactivo</comment>
+      <data-type>NUMBER(1)|0</data-type>
+      <default-expression>1 
+</default-expression>
+    </column>
+    <index id="508" parent="118" name="SYS_C0019364">
+      <name-surrogate>1</name-surrogate>
+      <object-id>103502</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="509" parent="118" name="SYS_C0020899">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105472</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="510" parent="118" name="SYS_C0019364">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0019364</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="511" parent="118" name="SYS_C0020899">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020899</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="512" parent="119" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="513" parent="119" name="DESCRIPCION">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(150)|0</data-type>
+    </column>
+    <column id="514" parent="119" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="515" parent="120" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105510&quot;.nextval</default-expression>
+    </column>
+    <column id="516" parent="120" name="NUMERO_DE_SOLICITUD">
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;NUM_SOLICITUD&quot;.&quot;NEXTVAL&quot;</default-expression>
+    </column>
+    <column id="517" parent="120" name="RNC_CEDULA_PROVEEDOR">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(11)|0</data-type>
+    </column>
+    <column id="518" parent="120" name="TIPO_MOVIMIENTO">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(2)|0</data-type>
+    </column>
+    <column id="519" parent="120" name="ID_CUENTA_CONT">
+      <data-type>NUMBER(3)|0</data-type>
+    </column>
+    <column id="520" parent="120" name="MONTO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(18,2)|0</data-type>
+    </column>
+    <column id="521" parent="120" name="FECHA_DE_REGISTRO">
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <column id="522" parent="120" name="ESTADO">
+      <data-type>NVARCHAR2(2)|0</data-type>
+      <default-expression>&apos;PE&apos;</default-expression>
+    </column>
+    <column id="523" parent="120" name="CUENTA_CONTABLE_PROVEEDOR">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="524" parent="120" name="CUENTA_CONTABLE_BANCO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <index id="525" parent="120" name="SYS_C0020928">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105512</object-id>
+      <created-timestamp>2016-11-30.18:24:22</created-timestamp>
+      <modified-timestamp>2016-11-30.18:24:22</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="526" parent="120" name="SYS_C0020929">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105513</object-id>
+      <created-timestamp>2016-11-30.18:24:22</created-timestamp>
+      <modified-timestamp>2016-11-30.18:24:22</modified-timestamp>
+      <columns>NUMERO_DE_SOLICITUD</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="527" parent="120" name="SYS_C0020928">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-30.18:24:22</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020928</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="528" parent="120" name="SYS_C0020929">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-30.18:24:22</modified-timestamp>
+      <columns>NUMERO_DE_SOLICITUD</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020929</underlying-index>
+    </key>
+    <foreign-key id="529" parent="120" name="FK_PROVEEDOR">
+      <modified-timestamp>2016-11-30.18:24:22</modified-timestamp>
+      <columns>RNC_CEDULA_PROVEEDOR</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.PROVEEDORES.SYS_C0020885</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="530" parent="120" name="FK_CUENTA_PROVEEDOR">
+      <modified-timestamp>2016-11-30.18:24:22</modified-timestamp>
+      <columns>CUENTA_CONTABLE_PROVEEDOR</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.CUENTAS_CONTABLES.SYS_C0020874</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="531" parent="121" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_93767&quot;.nextval</default-expression>
+    </column>
+    <column id="532" parent="121" name="DESCRIPCION">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(100)|0</data-type>
+    </column>
+    <column id="533" parent="121" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <index id="534" parent="121" name="SYS_C0010910">
+      <name-surrogate>1</name-surrogate>
+      <object-id>93769</object-id>
+      <created-timestamp>2016-07-11.19:43:31</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:31</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="535" parent="121" name="SYS_C0010911">
+      <name-surrogate>1</name-surrogate>
+      <object-id>93770</object-id>
+      <created-timestamp>2016-07-11.19:43:31</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:31</modified-timestamp>
+      <columns>DESCRIPCION</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="536" parent="121" name="SYS_C0010910">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-11.19:43:31</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0010910</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="537" parent="121" name="SYS_C0010911">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-11.19:43:31</modified-timestamp>
+      <columns>DESCRIPCION</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0010911</underlying-index>
+    </key>
+    <column id="538" parent="122" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_93760&quot;.nextval</default-expression>
+    </column>
+    <column id="539" parent="122" name="DESCRIPCION">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(100)|0</data-type>
+    </column>
+    <column id="540" parent="122" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <index id="541" parent="122" name="SYS_C0010901">
+      <name-surrogate>1</name-surrogate>
+      <object-id>93762</object-id>
+      <created-timestamp>2016-07-11.19:43:26</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:26</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="542" parent="122" name="SYS_C0010902">
+      <name-surrogate>1</name-surrogate>
+      <object-id>93763</object-id>
+      <created-timestamp>2016-07-11.19:43:26</created-timestamp>
+      <modified-timestamp>2016-07-11.19:43:26</modified-timestamp>
+      <columns>DESCRIPCION</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="543" parent="122" name="SYS_C0010901">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-11.19:43:26</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0010901</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="544" parent="122" name="SYS_C0010902">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-07-11.19:43:26</modified-timestamp>
+      <columns>DESCRIPCION</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0010902</underlying-index>
+    </key>
+    <column id="545" parent="123" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_100062&quot;.nextval</default-expression>
+    </column>
+    <column id="546" parent="123" name="NOMBRE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(70)|0</data-type>
+    </column>
+    <column id="547" parent="123" name="DOCUMENTOIDENTIDAD">
+      <mandatory>1</mandatory>
+      <data-type>CHAR(8)|0</data-type>
+    </column>
+    <column id="548" parent="123" name="CORREOELECTRONICO">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(150)|0</data-type>
+    </column>
+    <column id="549" parent="123" name="FECHANACIMIENTO">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+    </column>
+    <column id="550" parent="123" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+      <default-expression>1</default-expression>
+    </column>
+    <column id="551" parent="123" name="FECHAREGISTRO">
+      <mandatory>1</mandatory>
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE</default-expression>
+    </column>
+    <index id="552" parent="123" name="SYS_C0014091">
+      <name-surrogate>1</name-surrogate>
+      <object-id>100064</object-id>
+      <created-timestamp>2016-10-19.23:20:26</created-timestamp>
+      <modified-timestamp>2016-10-19.23:20:26</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="553" parent="123" name="SYS_C0014091">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-10-19.23:20:26</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0014091</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="554" parent="124" name="USER_ROLE_ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_95009&quot;.nextval</default-expression>
+    </column>
+    <column id="555" parent="124" name="USERNAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(45)|0</data-type>
+    </column>
+    <column id="556" parent="124" name="ROLE">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(45)|0</data-type>
+    </column>
+    <index id="557" parent="124" name="SYS_C0011091">
+      <name-surrogate>1</name-surrogate>
+      <object-id>95011</object-id>
+      <created-timestamp>2016-08-04.21:59:08</created-timestamp>
+      <modified-timestamp>2016-08-04.21:59:08</modified-timestamp>
+      <columns>USER_ROLE_ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="558" parent="124" name="UNI_USERNAME_ROLE">
+      <object-id>95012</object-id>
+      <created-timestamp>2016-08-04.21:59:08</created-timestamp>
+      <modified-timestamp>2016-08-04.21:59:08</modified-timestamp>
+      <columns>ROLE
+USERNAME</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="559" parent="124" name="SYS_C0011091">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-08-04.21:59:08</modified-timestamp>
+      <columns>USER_ROLE_ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011091</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="560" parent="124" name="UNI_USERNAME_ROLE">
+      <modified-timestamp>2016-08-04.21:59:08</modified-timestamp>
+      <columns>ROLE
+USERNAME</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>UNI_USERNAME_ROLE</underlying-index>
+    </key>
+    <foreign-key id="561" parent="124" name="FK_USERNAME">
+      <modified-timestamp>2016-08-04.21:59:08</modified-timestamp>
+      <columns>USERNAME</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.USERSSPRING.SYS_C0011087</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="562" parent="125" name="USERNAME">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(45)|0</data-type>
+    </column>
+    <column id="563" parent="125" name="PASSWORD">
+      <mandatory>1</mandatory>
+      <data-type>VARCHAR2(45)|0</data-type>
+    </column>
+    <index id="564" parent="125" name="SYS_C0011087">
+      <name-surrogate>1</name-surrogate>
+      <object-id>95008</object-id>
+      <created-timestamp>2016-08-04.21:59:06</created-timestamp>
+      <modified-timestamp>2016-08-04.21:59:06</modified-timestamp>
+      <columns>USERNAME</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="565" parent="125" name="SYS_C0011087">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-08-04.21:59:06</modified-timestamp>
+      <columns>USERNAME</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0011087</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="566" parent="126" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_100088&quot;.nextval</default-expression>
+    </column>
+    <column id="567" parent="126" name="NOMBRE_USUARIO">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(10)|0</data-type>
+    </column>
+    <column id="568" parent="126" name="NOMBRE_TABLA">
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(20)|0</data-type>
+    </column>
+    <column id="569" parent="126" name="FECHA_INSERTA">
+      <data-type>DATE|0</data-type>
+      <default-expression>SYSDATE
+</default-expression>
+    </column>
+    <index id="570" parent="126" name="SYS_C0014139">
+      <name-surrogate>1</name-surrogate>
+      <object-id>100090</object-id>
+      <created-timestamp>2016-10-20.00:16:39</created-timestamp>
+      <modified-timestamp>2016-10-20.00:16:39</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="571" parent="126" name="SYS_C0014139">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-10-20.00:16:39</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0014139</underlying-index>
+      <primary>1</primary>
+    </key>
+    <column id="572" parent="127" name="ID">
+      <comment>Clave Primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_105473&quot;.nextval</default-expression>
+    </column>
+    <column id="573" parent="127" name="ID_ROL">
+      <comment>Referencia a la tabla Roles</comment>
+      <data-type>NUMBER(*)|0</data-type>
+    </column>
+    <column id="574" parent="127" name="NOMBRE_USUARIO">
+      <comment>Nombre de Usuario</comment>
+      <data-type>VARCHAR2(150)|0</data-type>
+    </column>
+    <column id="575" parent="127" name="CLAVE">
+      <comment>Clave de acceso de Usuario</comment>
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="576" parent="127" name="ESTADO">
+      <comment>Estado de las los Usuario. 1=Activo ; 0=Inactivo</comment>
+      <data-type>NUMBER(1)|0</data-type>
+      <default-expression>1</default-expression>
+    </column>
+    <index id="577" parent="127" name="SYS_C0019367">
+      <name-surrogate>1</name-surrogate>
+      <object-id>103504</object-id>
+      <created-timestamp>2016-11-09.23:34:22</created-timestamp>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="578" parent="127" name="SYS_C0020901">
+      <name-surrogate>1</name-surrogate>
+      <object-id>105475</object-id>
+      <created-timestamp>2016-11-29.19:55:55</created-timestamp>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="579" parent="127" name="SYS_C0019367">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-09.23:34:22</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0019367</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="580" parent="127" name="SYS_C0020901">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0020901</underlying-index>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="581" parent="127" name="ID_ROL_FK">
+      <modified-timestamp>2016-11-29.19:55:55</modified-timestamp>
+      <columns>ID_ROL</columns>
+      <initially-deferred>1</initially-deferred>
+      <ref-key>~.ROLES.SYS_C0020899</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="582" parent="128" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="583" parent="128" name="CLAVE">
+      <data-type>VARCHAR2(100)|0</data-type>
+    </column>
+    <column id="584" parent="128" name="ESTADO">
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="585" parent="128" name="ID_ROL">
+      <data-type>NUMBER(10)|0</data-type>
+    </column>
+    <column id="586" parent="128" name="NOMBRE_USUARIO">
+      <data-type>VARCHAR2(150)|0</data-type>
+    </column>
+    <column id="587" parent="129" name="ID">
+      <comment>Clave primaria</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(*)|0</data-type>
+      <default-expression>&quot;C##DQUIROZ&quot;.&quot;ISEQ$$_101870&quot;.nextval</default-expression>
+    </column>
+    <column id="588" parent="129" name="NOMBRES">
+      <comment>Nombre del Usuario</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(50)|0</data-type>
+    </column>
+    <column id="589" parent="129" name="APELLIDOS">
+      <comment>Apellido del Usuario</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(50)|0</data-type>
+    </column>
+    <column id="590" parent="129" name="CEDULA">
+      <comment>Cedula del usuario</comment>
+      <mandatory>1</mandatory>
+      <data-type>CHAR(11)|0</data-type>
+    </column>
+    <column id="591" parent="129" name="TELEFONO">
+      <comment>Telefeno del usuario</comment>
+      <mandatory>1</mandatory>
+      <data-type>CHAR(10)|0</data-type>
+    </column>
+    <column id="592" parent="129" name="CELULAR">
+      <comment>Celular del usuario</comment>
+      <mandatory>1</mandatory>
+      <data-type>CHAR(10)|0</data-type>
+    </column>
+    <column id="593" parent="129" name="CORREO">
+      <comment>Correo principal del usuario</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(50)|0</data-type>
+    </column>
+    <column id="594" parent="129" name="NOMBRE_USUARIO">
+      <comment>Nombre de usuario para ingresar al sistema</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(25)|0</data-type>
+    </column>
+    <column id="595" parent="129" name="CLAVE">
+      <comment>Clave de acceso del usuario</comment>
+      <mandatory>1</mandatory>
+      <data-type>NVARCHAR2(100)|0</data-type>
+    </column>
+    <column id="596" parent="129" name="ROL">
+      <comment>Rol del Usuario en el sistema 1=Administrado ; 0=Normal</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+    </column>
+    <column id="597" parent="129" name="ESTADO">
+      <comment>Estado del Usuario en el sistema . 1=Activo ; 0=Inactivo</comment>
+      <mandatory>1</mandatory>
+      <data-type>NUMBER(1)|0</data-type>
+      <default-expression>1</default-expression>
+    </column>
+    <index id="598" parent="129" name="SYS_C0015940">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101872</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>ID</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="599" parent="129" name="SYS_C0015941">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101873</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>CEDULA</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="600" parent="129" name="SYS_C0015942">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101874</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>TELEFONO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="601" parent="129" name="SYS_C0015943">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101875</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>CELULAR</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="602" parent="129" name="SYS_C0015944">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101876</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>CORREO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <index id="603" parent="129" name="SYS_C0015945">
+      <name-surrogate>1</name-surrogate>
+      <object-id>101877</object-id>
+      <created-timestamp>2016-11-05.08:48:46</created-timestamp>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>NOMBRE_USUARIO</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+      <tablespace-name>SYSTEM</tablespace-name>
+    </index>
+    <key id="604" parent="129" name="SYS_C0015940">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>ID</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015940</underlying-index>
+      <primary>1</primary>
+    </key>
+    <key id="605" parent="129" name="SYS_C0015941">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>CEDULA</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015941</underlying-index>
+    </key>
+    <key id="606" parent="129" name="SYS_C0015942">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>TELEFONO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015942</underlying-index>
+    </key>
+    <key id="607" parent="129" name="SYS_C0015943">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>CELULAR</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015943</underlying-index>
+    </key>
+    <key id="608" parent="129" name="SYS_C0015944">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>CORREO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015944</underlying-index>
+    </key>
+    <key id="609" parent="129" name="SYS_C0015945">
+      <name-surrogate>1</name-surrogate>
+      <modified-timestamp>2016-11-05.08:48:46</modified-timestamp>
+      <columns>NOMBRE_USUARIO</columns>
+      <initially-deferred>1</initially-deferred>
+      <underlying-index>SYS_C0015945</underlying-index>
+    </key>
+    <argument id="610" parent="134" name="V_NOMBRE">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="611" parent="134" name="V_DESCRIPCION">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="612" parent="134" name="V_CODIGO">
+      <direction>IN</direction>
+      <data-type>CHAR|0</data-type>
+    </argument>
+    <argument id="613" parent="134" name="V_PC">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="614" parent="134" name="V_PV">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="615" parent="134" name="V_NOTA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="616" parent="134" name="V_FIV">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="617" parent="134" name="V_FFV">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="618" parent="134" name="V_DISPONIBLE">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="619" parent="134" name="V_FD">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="620" parent="134" name="V_FM">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="621" parent="134" name="V_ESTADO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="622" parent="134" name="V_CANTIDAD">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="623" parent="135" name="V_ID_FACTURA">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="624" parent="135" name="V_PRODUCTO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="625" parent="135" name="V_DESCRIPCION">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="626" parent="135" name="V_CANTIDAD">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="627" parent="135" name="V_PRECIO_UNITARIO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="628" parent="135" name="V_PRECIO_TOTAL">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="629" parent="137" name="NOMBRE">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="630" parent="137" name="APELLIDO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="631" parent="137" name="CEDULA">
+      <direction>IN</direction>
+      <data-type>CHAR|0</data-type>
+    </argument>
+    <argument id="632" parent="140" name="V_CEDULA">
+      <direction>IN</direction>
+      <data-type>CHAR|0</data-type>
+    </argument>
+    <argument id="633" parent="141" name="V_NOMBRE">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="634" parent="141" name="V_APELLIDO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="635" parent="141" name="V_CEDULA">
+      <direction>IN</direction>
+      <data-type>CHAR|0</data-type>
+    </argument>
+    <argument id="636" parent="141" name="V_CORREOELECTRONICO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="637" parent="141" name="V_ESTADO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="638" parent="141" name="V_FECHANACIMIENTO">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="639" parent="141" name="V_FECHAREGISTRO">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="640" parent="141" name="V_FECHAACTUALIZACION">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <routine id="641" parent="142" name="SP_LOCAL_INSERTA_AUTOS">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="642" parent="142" name="SP_ACTUALIZA_AUTOS">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <body id="643" parent="143" name="PKG_PROCESOS_AUTOMOVILES">
+      <object-id>97833</object-id>
+      <created-timestamp>2016-09-29.00:45:01</created-timestamp>
+      <modified-timestamp>2016-09-29.23:56:38</modified-timestamp>
+      <invalid>1</invalid>
+    </body>
+    <routine id="644" parent="143" name="SP_LOCAL_INSERTA_AUTOS">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="645" parent="143" name="SP_ACTUALIZA_AUTOS">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="646" parent="144" name="SP_INSERTA_CIUDADANO">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <body id="647" parent="145" name="PROCESOS_AUTOMOVILES">
+      <object-id>97668</object-id>
+      <created-timestamp>2016-09-26.23:28:10</created-timestamp>
+      <modified-timestamp>2016-10-19.23:56:36</modified-timestamp>
+    </body>
+    <routine id="648" parent="145" name="SP_LOCAL_INSERTA_AUTOS">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="649" parent="145" name="SP_ACTUALIZA_AUTOS">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <argument id="650" parent="641" name="V_MARCA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="651" parent="641" name="V_MODELO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="652" parent="641" name="V_MATRICULA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="653" parent="641" name="V_ANIO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="654" parent="641" name="V_COLOR">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="655" parent="641" name="V_COMBUSTIBLE">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="656" parent="641" name="V_FECHA_REGISTRO">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="657" parent="641" name="V_FECHA_ACTUALIZACION">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="658" parent="642" name="V_MARCA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="659" parent="642" name="V_MODELO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="660" parent="642" name="V_MATRICULA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="661" parent="642" name="V_ANIO">
+      <direction>IN</direction>
+      <data-type>NUMBER|0</data-type>
+    </argument>
+    <argument id="662" parent="642" name="V_COLOR">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="663" parent="642" name="V_COMBUSTIBLE">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="664" parent="642" name="V_FECHA_REGISTRO">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="665" parent="642" name="V_FECHA_ACTUALIZACION">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="666" parent="644" name="V_MARCA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="667" parent="644" name="V_MODELO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="668" parent="644" name="V_MATRICULA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="669" parent="644" name="V_ANIO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="670" parent="644" name="V_COLOR">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="671" parent="644" name="V_COMBUSTIBLE">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="672" parent="644" name="V_FECHA_REGISTRO">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="673" parent="644" name="V_FECHA_ACTUALIZACION">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="674" parent="645" name="V_MARCA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="675" parent="645" name="V_MODELO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="676" parent="645" name="V_MATRICULA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="677" parent="645" name="V_ANIO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="678" parent="645" name="V_COLOR">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="679" parent="645" name="V_COMBUSTIBLE">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="680" parent="645" name="V_FECHA_REGISTRO">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="681" parent="645" name="V_FECHA_ACTUALIZACION">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="682" parent="646" name="NOMBRE">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="683" parent="646" name="APELLIDO">
+      <direction>IN</direction>
+      <data-type>VARCHAR2|0</data-type>
+    </argument>
+    <argument id="684" parent="648" name="V_MARCA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="685" parent="648" name="V_MODELO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="686" parent="648" name="V_MATRICULA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="687" parent="648" name="V_ANIO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="688" parent="648" name="V_COLOR">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="689" parent="648" name="V_COMBUSTIBLE">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="690" parent="648" name="V_FECHA_REGISTRO">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="691" parent="648" name="V_FECHA_ACTUALIZACION">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="692" parent="649" name="V_MARCA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="693" parent="649" name="V_MODELO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="694" parent="649" name="V_MATRICULA">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="695" parent="649" name="V_ANIO">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="696" parent="649" name="V_COLOR">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="697" parent="649" name="V_COMBUSTIBLE">
+      <direction>IN</direction>
+      <data-type>NVARCHAR2|0</data-type>
+    </argument>
+    <argument id="698" parent="649" name="V_FECHA_REGISTRO">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+    <argument id="699" parent="649" name="V_FECHA_ACTUALIZACION">
+      <direction>IN</direction>
+      <data-type>DATE|0</data-type>
+    </argument>
+  </database-model>
+</dataSource>
