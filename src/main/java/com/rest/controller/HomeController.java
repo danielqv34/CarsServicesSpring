@@ -15,7 +15,7 @@ import java.util.Locale;
 public class HomeController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String index(Locale locale , Model model) {
+    public String index() {
         System.out.println("Llamada del Controlador de Inico");
         return "home";
     }
