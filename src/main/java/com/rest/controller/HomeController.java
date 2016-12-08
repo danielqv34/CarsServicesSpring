@@ -16,7 +16,7 @@ public class HomeController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
-        System.out.println("Llamada del Controlador de Inico");
+        System.out.println("Llamada del Controlador de Inicio");
         return "home";
     }
 }

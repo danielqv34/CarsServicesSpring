@@ -19,7 +19,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@PropertySource({"classpath:restDB.properties"})
+@PropertySource({"classpath:eagleDB.properties"})
 public class HibernateConfig {
 
     @Autowired

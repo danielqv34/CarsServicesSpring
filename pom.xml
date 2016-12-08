@@ -90,18 +90,30 @@
         <dependency>
             <groupId>org.thymeleaf</groupId>
             <artifactId>thymeleaf</artifactId>
-            <version>3.0.0.RELEASE</version>
+            <version>2.1.4.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.thymeleaf</groupId>
             <artifactId>thymeleaf-spring4</artifactId>
-            <version>3.0.0.RELEASE</version>
+            <version>2.1.4.RELEASE</version>
         </dependency>
 
         <dependency>
             <groupId>com.hynnet</groupId>
             <artifactId>oracle-driver-ojdbc</artifactId>
             <version>12.1.0.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>6.0.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>nz.net.ultraq.thymeleaf</groupId>
+            <artifactId>thymeleaf-layout-dialect</artifactId>
+            <version>1.2.9</version>
         </dependency>
 
         <dependency>

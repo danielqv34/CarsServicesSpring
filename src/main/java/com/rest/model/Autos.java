@@ -14,6 +14,7 @@ import java.util.Date;
 @Table(name = "AUTOS")
 @JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
 public class Autos implements Serializable {
+
     private Integer id;
     private String marca;
     private String modelo;

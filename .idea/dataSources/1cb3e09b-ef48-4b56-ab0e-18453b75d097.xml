@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="IZANAGI">
+<dataSource name="ORACLE-EAGLE">
   <database-model serializer="dbm" rdbms="ORACLE" format-version="2.6">
     <schema id="1" name="C##DQUIROZ">
       <object-id>102</object-id>

@@ -1,23 +1,24 @@
 package com.rest.config;
 
-import org.springframework.beans.BeansException;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationContextAware;
+import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
+
 import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.dialect.IDialect;
 import org.thymeleaf.spring4.SpringTemplateEngine;
 import org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring4.view.ThymeleafViewResolver;
-import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ITemplateResolver;
+import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by ezequ on 12/3/2016.
@@ -25,40 +26,42 @@ import org.thymeleaf.templateresolver.ITemplateResolver;
 @EnableWebMvc
 @Configuration
 @ComponentScan("com.rest.controller")
-public class WebConfig  extends WebMvcConfigurerAdapter implements ApplicationContextAware{
+public class WebConfig extends WebMvcConfigurerAdapter {
 
-    private ApplicationContext applicationContext;
-
-
-    @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        this.applicationContext = applicationContext;
-    }
 
     @Bean
-    public ViewResolver viewResolver(){
+    public ServletContextTemplateResolver templateResolver() {
+        ServletContextTemplateResolver resolver = new ServletContextTemplateResolver();
+        resolver.setPrefix("/WEB-INF/views/");
+        resolver.setSuffix(".html");
+        resolver.setTemplateMode("HTML5");
+        return resolver;
+    }
+
+
+    @Bean
+    public ThymeleafViewResolver viewResolver() {
         ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();
         viewResolver.setTemplateEngine(templateEngine());
         viewResolver.setCharacterEncoding("UTF-8");
+        viewResolver.setOrder(1);
+        viewResolver.setViewNames(new String[]{"*", "js/*", "template/*"});
         return viewResolver;
     }
 
+
     @Bean
-    public TemplateEngine templateEngine(){
+    public SpringTemplateEngine templateEngine() {
+        Set<IDialect> dialectset = new HashSet<>();
+        dialectset.add(new LayoutDialect());
         SpringTemplateEngine templateEngine = new SpringTemplateEngine();
-        templateEngine.setEnableSpringELCompiler(true);
         templateEngine.setTemplateResolver(templateResolver());
+        templateEngine.setAdditionalDialects(dialectset);
+
         return templateEngine;
     }
 
-    @Bean
-    public ITemplateResolver templateResolver(){
-        SpringResourceTemplateResolver resolver = new SpringResourceTemplateResolver();
-        resolver.setApplicationContext(applicationContext);
-        resolver.setPrefix("/WEB-INF/views/");
-        resolver.setSuffix(".html");
-        return resolver;
-    }
+
 
     @Override
     public void addResourceHandlers(final ResourceHandlerRegistry registry) {
