@@ -1,12 +1,14 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="RestProject:war exploded">
-    <output-path>$PROJECT_DIR$/target/webServicesSpring-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/RestProject_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="RestProject" />
+          <element id="library" level="project" name="Angular JS" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="ojdbc7" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.3.RELEASE" />
@@ -47,10 +49,8 @@
           <element id="library" level="project" name="Maven: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.2.9" />
         </element>
       </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/webServicesSpring-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      </element>
       <element id="javaee-facet-resources" facet="RestProject/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </root>
   </artifact>
 </component>

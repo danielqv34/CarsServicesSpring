@@ -8,6 +8,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.sql.SQLException;
 import java.util.List;
 
+import static org.hibernate.criterion.Restrictions.eq;
+import static org.hibernate.criterion.Restrictions.eqProperty;
+
 /**
  * Created by ezequ on 12/3/2016.
  */
@@ -15,19 +18,19 @@ import java.util.List;
 @Transactional
 public class AutoRepoImpl extends SessionFactoryHandler implements AutoRepo {
 
-    @Override
+    @Transactional
     public Autos buscarPorId(int id) throws SQLException {
         Autos autos = new Autos();
+
         try {
             autos = (Autos) getSession().get(Autos.class, id);
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         return autos;
     }
 
-    @Override
+    @Transactional
     public Autos buscarPorMatricula(String matricula) throws SQLException {
 
         Autos autos = new Autos();
@@ -45,7 +48,7 @@ public class AutoRepoImpl extends SessionFactoryHandler implements AutoRepo {
 
     }
 
-    @Override
+    @Transactional
     public void guardarAuto(Autos autos) throws SQLException {
         if (autos != null) {
             try {
@@ -56,7 +59,7 @@ public class AutoRepoImpl extends SessionFactoryHandler implements AutoRepo {
         }
     }
 
-    @Override
+    @Transactional
     public void actualizarAuto(Autos autos) throws SQLException {
         if (autos != null) {
             try {
@@ -67,7 +70,7 @@ public class AutoRepoImpl extends SessionFactoryHandler implements AutoRepo {
         }
     }
 
-    @Override
+    @Transactional
     public void borrarAuto(int id) throws SQLException {
         if (id != 0) {
             Autos auto = new Autos();
@@ -80,12 +83,12 @@ public class AutoRepoImpl extends SessionFactoryHandler implements AutoRepo {
         }
     }
 
-    @Override
+    @Transactional
     public List<Autos> listaAutos() throws SQLException {
         return getSession().createQuery("from Autos ").list();
     }
 
-    @Override
+    @Transactional
     public void borrarTodos() {
         try {
             getSession().createQuery("delete from Autos ").executeUpdate();
@@ -94,7 +97,7 @@ public class AutoRepoImpl extends SessionFactoryHandler implements AutoRepo {
         }
     }
 
-    @Override
+    @Transactional
     public boolean existeAuto(Autos autos) throws SQLException {
         return buscarPorMatricula(autos.getMatricula()) != null;
     }
